@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "discordbot-script": "^3.3.1",
+    "dotenv": "^16.0.1"
+  }
+}
