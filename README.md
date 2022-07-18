@@ -12,3 +12,7 @@ npm install
 ```bash
 node bot.js
 ```
+For developing (Automatically restarts when changes are detected).
+```bash
+node bot.js
+```
