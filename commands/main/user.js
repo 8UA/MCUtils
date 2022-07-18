@@ -2,10 +2,10 @@ module.exports = ({
     
     name: "user",
     code: `
-    $title[$message[]'s UUID.]
+    $title[$api[https://api.mojang.com/users/profiles/minecraft/$message[];name]'s UUID.]
     
-    $thumbnail[http://cravatar.eu/head/$message[]/64.png]
-    $description[$api[https://minecraft-api.com/api/uuid/$message[]/json;uuid]]
+    $thumbnail[http://cravatar.eu/avatar/$message[]/64.png]
+    $description[$api[https://api.mojang.com/users/profiles/minecraft/$message[];id]]
     
     $color[#123123]
     `
