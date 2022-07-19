@@ -10,7 +10,7 @@ module.exports = ({
 
                 $addField[Links;
                     {hyper:Download Skin:https://minotar.net/download/$message[]}
-                    {hyper:NameMC:https://it.namemc.com/profile/$message[]}
+                    {hyper:NameMC:https://namemc.com/profile/$message[]}
                     {hyper:Plancke.io:https://plancke.io/hypixel/player/stats/$message[]}]
     ]
 
